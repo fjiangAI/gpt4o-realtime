@@ -190,8 +190,8 @@ async def with_openai(audio_file_path: str, instructions_file: str, out_dir: str
 
 # Entry point
 if __name__ == "__main__":
-    file_name = "how"
-    file_path = "input/" + file_name + ".mp3"
+    file_name = "english1_c"
+    file_path = "input/" + file_name + ".wav"
     out_dir = "output/" + file_name + "/"
     provider = "openai"
     instructions_file = "system_prompt.txt"

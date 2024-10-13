@@ -76,6 +76,7 @@ Make sure you have a valid audio file in the `input/` directory, and the `config
 - Ensure your Azure/OpenAI credentials are correctly configured in `config.json`.
 - The sample rate for audio files should be 24 kHz for optimal performance.
 - This project currently supports `.wav` files, and may require adjustments for other formats.
+- The sample in wav with 256kbps is best, and use the input/convert.py for preprocess.
 
 ## 🔄 Updates
 - **v1.0**: Initial release, featuring support for audio resampling, sending chunks, receiving responses, and handling Azure/OpenAI models.
